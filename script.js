@@ -125,15 +125,15 @@ name.forEach((str) => {
 
 // practice set 1 in forEach loop in js
 
-let nums = [5, 6, 3, 25];
+// let nums = [5, 6, 3, 25];
 
-function squ() {
-  nums.forEach((num) => {
-    console.log(num * num);
-  });
-}
+// function squ() {
+//   nums.forEach((num) => {
+//     console.log(num * num);
+//   });
+// }
 
-squ();
+// squ();
 
 // .map method in array in js
 
@@ -148,3 +148,23 @@ console.log(newArr);
 let cacsquear = (num) => {
   console.log(Nums, num * num);
 };
+
+// .filter method in array in js
+
+// let nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0, 2, 22, 456, 6, 7, 88, 45, 56, 67];
+
+// let newA = nums.filter((val) => {
+//   return val % 2 === 0;
+// });
+
+// console.log(newA);
+
+// reduce method in arrays in js
+
+let nums = [6, 2, 2, 2];
+
+let sum = nums.reduce((val) => {
+  return val * 2;
+});
+
+console.log(nums, sum);
