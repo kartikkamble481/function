@@ -122,3 +122,29 @@ name.push("FOREVER");
 name.forEach((str) => {
   console.log(str);
 });
+
+// practice set 1 in forEach loop in js
+
+let nums = [5, 6, 3, 25];
+
+function squ() {
+  nums.forEach((num) => {
+    console.log(num * num);
+  });
+}
+
+squ();
+
+// .map method in array in js
+
+let Nums = [23, 45, 56, 6];
+
+let newArr = Nums.map((val) => {
+  return val * 2;
+});
+
+console.log(newArr);
+
+let cacsquear = (num) => {
+  console.log(Nums, num * num);
+};
