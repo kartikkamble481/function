@@ -145,9 +145,9 @@ let newArr = Nums.map((val) => {
 
 console.log(newArr);
 
-let cacsquear = (num) => {
-  console.log(Nums, num * num);
-};
+// let cacsquear = (num) => {
+//   console.log(Nums, num * num);
+// };
 
 // .filter method in array in js
 
