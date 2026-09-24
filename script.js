@@ -196,3 +196,23 @@ let pro = calculate;
 for (product of marks) {
   console.log("product", product);
 }
+
+let n = prompt("enter your number : ");
+
+let Arr = [];
+
+for (let i = 1; i <= n; i++) {
+  Arr[i - 1] = i;
+}
+
+console.log(arr);
+
+let Sum = arr.reduce((res, curr) => {
+  return res + curr;
+});
+
+let vectorial = arr.reduce((res, curr) => {
+  return res * curr;
+});
+
+console.log(vectorial);
