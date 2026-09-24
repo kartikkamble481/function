@@ -168,3 +168,31 @@ let sum = nums.reduce((val) => {
 });
 
 console.log(nums, sum);
+
+// practice set 2 in js
+
+// we are given array of marks of student . filter our the marks of student that scored 90+.
+
+// Qs . Take a number n as input form user . Create an array of numbers from 1 to n .
+// Use the reduce method to calculate sum of all numbers in the array.
+// Use the reduce method to calculate product of all numbers in the array.
+
+let marks = [98, 90, 38, 98, 74, 99];
+
+let newARR = marks.filter((val) => {
+  return val >= 90;
+});
+
+console.log(newARR);
+
+let calculate = marks.reduce((preval, currval) => {
+  return preval + currval;
+});
+
+console.log(calculate);
+
+let pro = calculate;
+
+for (product of marks) {
+  console.log("product", product);
+}
